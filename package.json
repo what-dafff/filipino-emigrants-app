@@ -1,0 +1,32 @@
+{
+  "name": "filipino-emigrants-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "d3-geo": "^3.1.1",
+    "d3-scale": "^4.0.2",
+    "firebase": "^12.3.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.553.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.9.4",
+    "react-simple-maps": "^3.0.0",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.4.1",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}

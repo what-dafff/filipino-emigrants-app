@@ -1,0 +1,125 @@
+.dynamic-table-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 1rem;
+}
+
+.table-section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 2rem;
+}
+
+.table-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+
+.table-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.table-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.dynamic-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.dynamic-table thead tr {
+  background: #eef2ff;
+  color: #1e293b;
+  text-transform: capitalize;
+}
+
+.dynamic-table th,
+.dynamic-table td {
+  border: 1px solid #e5e7eb;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dynamic-table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.dynamic-table tr:hover {
+  background: #f3f4f6;
+}
+
+.table-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btn-edit,
+.btn-delete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.375rem;
+  transition: 0.2s;
+}
+
+.btn-edit {
+  background: #6366f1;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #4f46e5;
+}
+
+.btn-delete {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-delete:hover {
+  background: #dc2626;
+}
+
+.table-loading,
+.table-empty {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+  padding: 2rem;
+}
+
+.btn-download {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  align-items: center;
+}
+.btn-download:hover {
+  background-color: #00c458;
+}
